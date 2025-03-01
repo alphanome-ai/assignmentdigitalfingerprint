@@ -93,11 +93,9 @@ Send your submission as a compressed ZIP file to info@alphanome.ai
 
 **Important Notes**
 
-*   Implement appropriate rate limiting for all APIs.
 *   Securely store and handle API keys (do NOT commit them to the repository). Use environment variables or a similar secure mechanism.
 *   Clearly document the prompt used for LLM analysis of the fingerprint data.
 *   Focus on creating a functional and deployed application using Reflex, even if it's a basic implementation.
-*   Integrating external JavaScript libraries like `fingerprintjs/fingerprintjs` into Reflex will likely require using `rx.js_code` to execute JavaScript code. Be sure to document how you handle this.
 *   Ethical considerations: Be mindful of the ethical implications of user profiling and data privacy. Include a brief statement discussing these considerations in your README.
 
 **Time Expectation**
